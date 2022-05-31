@@ -130,6 +130,7 @@ body {
 @media (max-width: 1400px) {
     body {
         height: 1000px;
+        background-image: url("./images/bg-mobile.svg");
     }
 
     .body {
