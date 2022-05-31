@@ -5,11 +5,6 @@
     --Soft-Magenta: hsl(300, 69%, 71%);
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-}
-
 * {
     padding: 0px;
     margin: 0px;
@@ -17,6 +12,8 @@ body {
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: var(--Violet);
     background-image: url("./images/bg-desktop.svg");
     background-size: cover;
@@ -37,7 +34,7 @@ body {
     padding: 0px 160px;
 }
 
-main {
+.body {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,7 +132,7 @@ main {
         height: 1000px;
     }
 
-    main {
+    .body {
         flex-direction: column;
     }
 
